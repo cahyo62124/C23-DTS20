@@ -1,0 +1,55 @@
+/* untuk tablet */
+@media all and (max-width: 1000px) {
+    .tim {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+    .extra1 h1 {
+        font-size: 32px;
+    }
+
+    .heading h2 {
+        font-size: 20px;
+    }
+}
+
+@media all and (max-width: 670px) {
+    .extra1 {
+        padding: 100px 0 100px 0;
+    }
+    
+    .header-right {
+        display: none;
+    }
+    
+    .menu-icon {
+        display: block;
+    }
+
+    .tim {
+        width: 100%;
+    }
+
+    .teamed {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .zoom {
+        padding: 25px;
+    }
+
+    .experien {
+        padding-bottom: 50px;
+    }
+}

@@ -1,0 +1,242 @@
+html, body, ul, ol, li, div {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: rgba(230, 126, 34, .9);
+}
+
+.logo {
+    width: 130px;
+    margin-top: 18px;
+}
+
+.header-left {
+    float: left;
+}
+
+.menu-icon {
+    color: rgba(230, 126, 34, .9);
+    float: right;
+    font-size: 25px;
+    padding: 25px 0;
+    display: none;
+  }
+
+.header-right {
+    float: right;
+    margin-right: 50px;
+}
+
+.header-right a {
+    color: #2f3542;
+    line-height: 65px;
+    padding: 0 25px;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(116, 125, 140,1.0);
+}
+
+span {
+    height: 65px;
+}
+
+.extra1 {
+    padding: 180px 0 100px 0;
+    background-image: url(iso-republic-lighthouse-sunset.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.extra1 h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.extra1 p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+    font-size: 20px;
+}
+
+/* .fa {
+    padding: 25px;
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+    border-radius: 50%;
+  } */
+
+.btn-wrapper {
+    padding-top: 50px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.facebook {
+    /* background: #3B5998; */
+    /* border: medium solid #3B5998;
+    color: white; */
+    background-color: #3B5998;
+    margin-right: 10px;
+}
+  
+.twitter {
+    /* background: #55ACEE; */
+    /* border: medium solid #55ACEE;
+    color: white; */
+    background-color: #55ACEE;
+    margin-right: 10px;
+}
+  
+.youtube {
+    /* background: #bb0000; */
+    /* border: solid medium #bb0000;
+    color: white; */
+    background-color: #bb0000;
+    margin-right: 10px;
+}
+
+.instagram {
+    /* background: #125688; */
+    /* border: medium solid #125688;
+    color: white; */
+    background-color: #125688;
+    margin-right: 10px;
+}
+
+.btn {
+    padding: 0 50px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+span {
+    padding: 25px 0;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+.teamed {
+    padding-bottom: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.heading {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+}
+
+.heading h2 {
+    font-weight: normal;
+}
+
+.heading h3 {
+    font-weight: normal;
+}
+
+.tim {
+    float: left;
+    width: 25%;
+}
+
+  /* .tims {
+      padding-bottom: 100px;
+  } */
+.profil-tim {
+      margin-bottom: 25px;
+}
+
+  .zoom {
+    padding: 50px;
+    transition: transform .2s; /* Animation */
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+  }
+
+  .zoom:hover {
+    transform: scale(1.5);
+  }
+  
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+    /* margin-top: 25px; */
+    font-size: 20px;
+    color: #34495e;
+    text-align: justify;
+  }
+
+  .experien {
+      text-align: center;
+      padding-bottom: 100px;
+      /* margin: 25px 0; */
+      background-color: whitesmoke;
+  }
+
+  .clear {
+      clear: left;
+  }
+
+  footer img {
+    width: 50px;
+  }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    padding: 40px 0 20px 0;
+    background-color: #d35400;
+  }
